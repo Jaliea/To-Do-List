@@ -34,6 +34,13 @@
     columns: #002765;
 }
 
+.todo-app p {
+    font-size: 20px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
 .row {
     display: flex;
     align-items: center;
@@ -42,6 +49,7 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
+    /* height: 40px; */
 }
 
 input {
@@ -55,7 +63,7 @@ input {
 button {
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 12px 50px;
     background: #085f4e;
     color: #fff;
     font-size: 16px;
